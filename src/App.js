@@ -1,11 +1,14 @@
+import React from 'react'
+import Todo from './component/Todo'
 
-function App() {
-  return (
-    <div >
-    
-    hello man how are you
-    </div>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Todo/>
+      </div>
+    )
+  }
 }
 
-export default App;
+
