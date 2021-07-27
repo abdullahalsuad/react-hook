@@ -2,7 +2,7 @@
 import { useCallback, useMemo, useState} from 'react';
 // import Todo from './component/Todo'
 // import Counter from './component/Counter'
-// import MyComponent from './component/MyComponent'
+ import MyComponent from './component/MyComponent'
 // import Button from './component/Button';
 // import ShowCount from './component/ShowCount';
 // import Title from './component/Title';
