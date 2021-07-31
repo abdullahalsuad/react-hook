@@ -4,7 +4,7 @@ function ShowCount({count,title}) {
     console.log(`rendering ${title}..`);
     
     return (
-        <div>
+        <div >
             {title} is {count}
         </div>
     )

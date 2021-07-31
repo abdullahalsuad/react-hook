@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import { useCallback, useMemo, useState} from 'react';
-// import Todo from './component/Todo'
-// import Counter from './component/Counter'
- import MyComponent from './component/MyComponent'
-// import Button from './component/Button';
-// import ShowCount from './component/ShowCount';
-// import Title from './component/Title';
+import Todo from './component/Todo'
+import Counter from './component/Counter'
+import MyComponent from './component/MyComponent'
+import Button from './component/Button';
+import ShowCount from './component/ShowCount';
+import Title from './component/Title';
 import Form from './component/Form';
 import Time from './component/Time';
 
@@ -31,16 +31,16 @@ export default function App () {
 
     return (
       <div>
-         {/* <Todo/>
+          {/* <Todo/>
         <Counter/>
         <div>{show && <MyComponent />}</div>
             <p>
                 <button type="button" onClick={() => setShow((prevShow) => !prevShow)}>
                     {show ? 'Hide post' : 'Show post'}
                 </button>
-            </p> 
+            </p>  */}
 
-            <div >
+            {/* <div >
             <Title />
             <ShowCount count={count1} title="Counter 1" />
             <span>{isEvenOrOdd ? 'Even' : 'Odd'}</span>
@@ -48,9 +48,9 @@ export default function App () {
             <hr />
             <ShowCount count={count2} title="Counter 2" />
             <Button handleClick={incrementByFive}>Increment by five</Button>
-        </div> */}
-       <Form /> 
-       <Time/>
+        </div>  */}
+        {/* <Form />  */}
+        <Time/> 
       </div>
     )
 }
