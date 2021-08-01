@@ -9,6 +9,11 @@ import Title from './component/Title';
 import Form from './component/Form';
 import Time from './component/Time';
 
+//custom hook
+import LayoutCopoOne from './component/custom hook/LayoutCopo';
+import LayoutCopoTwo from './component/custom hook/LayoutCopoTwo';
+
+
 export default function App () {
   // const [show, setShow] = useState(true);
 
@@ -38,9 +43,9 @@ export default function App () {
                 <button type="button" onClick={() => setShow((prevShow) => !prevShow)}>
                     {show ? 'Hide post' : 'Show post'}
                 </button>
-            </p>  */}
+            </p> 
 
-            {/* <div >
+            <div >
             <Title />
             <ShowCount count={count1} title="Counter 1" />
             <span>{isEvenOrOdd ? 'Even' : 'Odd'}</span>
@@ -48,9 +53,16 @@ export default function App () {
             <hr />
             <ShowCount count={count2} title="Counter 2" />
             <Button handleClick={incrementByFive}>Increment by five</Button>
-        </div>  */}
-        {/* <Form />  */}
-        <Time/> 
+        </div> 
+        <Form /> 
+        <Time/>  */}
+             
+             {/* custom hook */}
+             <div>
+               <LayoutCopoOne />
+               <LayoutCopoTwo/>
+             </div>
+
       </div>
     )
 }
