@@ -1,3 +1,4 @@
+/*  eslint-disable no-unused-vars */
 import  { useEffect, useState,useCallback } from 'react'
 
 const useWindowWidth = (size) =>{

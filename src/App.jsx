@@ -10,8 +10,8 @@ import Form from './component/Form';
 import Time from './component/Time';
 
 //custom hook
-import LayoutCopoOne from './component/custom hook/LayoutCopo';
-import LayoutCopoTwo from './component/custom hook/LayoutCopoTwo';
+// import LayoutCopoOne from './component/custom hook/LayoutCopo';
+// import LayoutCopoTwo from './component/custom hook/LayoutCopoTwo';
 
 
 export default function App () {
@@ -58,11 +58,13 @@ export default function App () {
         <Time/>  */}
              
              {/* custom hook */}
-             <div>
+             {/* <div>
                <LayoutCopoOne />
                <LayoutCopoTwo/>
-             </div>
-
+             </div> */}
+          <div>
+            hello
+          </div>
       </div>
     )
 }
