@@ -2,12 +2,15 @@
 import { useCallback, useMemo, useState} from 'react';
 import Todo from './component/Todo'
 import Counter from './component/Counter'
+import Counterr from './component/useReducer/Counter'
 import MyComponent from './component/MyComponent'
 import Button from './component/Button';
 import ShowCount from './component/ShowCount';
 import Title from './component/Title';
 import Form from './component/Form';
 import Time from './component/Time';
+import ComplexCounter from './component/useReducer/ComplexCounter';
+import CounterThree from './component/useReducer/CounterThree';
 
 //custom hook
 // import LayoutCopoOne from './component/custom hook/LayoutCopo';
@@ -63,7 +66,9 @@ export default function App () {
                <LayoutCopoTwo/>
              </div> */}
           <div>
-            hello
+              {/* <Counterr /> */}
+              {/* <ComplexCounter/> */}
+              <CounterThree />
           </div>
       </div>
     )
